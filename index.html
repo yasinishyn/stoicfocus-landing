@@ -8,16 +8,28 @@
       name="description"
       content="StoicFocus is a brutalist, Stoic-first productivity extension by Arc12 Team. Install via Chrome Web Store, study features, and support the creators."
     />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon16.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/icon48.png" />
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/icon128.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="page">
+      <div class="topbar">
+        <div class="hero__brand">
+          <div class="hero__brand-line">
+            <img class="hero__logo" src="assets/icon128.png" alt="StoicFocus logo" />
+            <div class="hero__brand-title">STOICFOCUS</div>
+          </div>
+          <div class="hero__brand-sub">by arc12</div>
+        </div>
+        <a class="btn btn--primary topbar__cta" href="#" aria-label="Install via Chrome Web Store">
+          Install
+        </a>
+      </div>
+
       <header class="hero">
         <div class="hero__left">
-          <div class="hero__brand">
-            <div class="hero__brand-title">STOICFOCUS</div>
-            <div class="hero__brand-sub">by arc12</div>
-          </div>
           <h1 class="hero__title">Attention is a practice. We built a wall.</h1>
           <p class="hero__lede">
             StoicFocus is a productivity Chrome extension that helps you reclaim your
@@ -25,7 +37,7 @@
             Arc12 Team.
           </p>
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#" aria-label="Install via Chrome Web Store">
+            <a class="btn btn--primary btn--highlight" href="#" aria-label="Install via Chrome Web Store">
               Install via Chrome Web Store
             </a>
           </div>
@@ -355,7 +367,7 @@
           </p>
         </div>
         <div class="support-block__right">
-          <a class="btn btn--primary" href="#" aria-label="Support on Buy Me a Coffee">
+          <a class="btn btn--primary btn--coffee" href="#" aria-label="Support on Buy Me a Coffee">
             Buy Me a Coffee
           </a>
         </div>
@@ -371,7 +383,7 @@
           <p class="final-cta__ritual">A 25‑minute session is a quiet act of self‑command.</p>
         </div>
         <div class="final-cta__actions">
-          <a class="btn btn--primary" href="#" aria-label="Install via Chrome Web Store">
+          <a class="btn btn--primary btn--highlight" href="#" aria-label="Install via Chrome Web Store">
             Install via Chrome Web Store
           </a>
         </div>
