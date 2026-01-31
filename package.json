@@ -1,0 +1,13 @@
+{
+  "name": "stoicfocus-landing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone landing page for StoicFocus (Arc12).",
+  "scripts": {
+    "dev": "http-server . -p 3030",
+    "start": "http-server . -p 3030"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
